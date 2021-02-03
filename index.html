@@ -24,51 +24,53 @@
     
     <!--Navbar-->
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Navbar</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Features</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Pricing</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link " href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
+    <!-- Just an image -->
+    <!-- Image and text -->
+    <nav class="navbar navbar-dark bg-dark" id="nav">
+        <a class="navbar-brand" href="#">
+            <img src="/img/img-nav.jpg" width="30" height="30" class="d-inline-block align-center" alt="" loading="lazy" style="border-radius: 100%;">
+            Intento de Programador
+        </a>
+    </nav>
+
+    <!--Main-->
 
     <main id="" class="container">
 
         <!--Sobre Mi - About Me-->
 
-        <p>Hola! Soy Gonza, estudiante de la carrera de
-            Ingeniería en sistemas de Información.
-            Soy Programador autodidacta y proactivo.
-            Mi objetivo es ganar experiencia aplicando y
-            expandiendo mis conocimientos.
-        </p>
+        <div class="row justify-content-center">
+
+            <div class="container bg-light rounded-lg p-2 m-3">
+                <div class="text-center" style="width: 50%; margin: auto;">
+                Hola! Soy Gonza, estudiante de la carrera de
+                Ingeniería en sistemas de Informació<br>
+                Soy Programador autodidacta y proactivo.<br>
+                Mi objetivo es ganar experiencia aplicando y
+                expandiendo mis conocimientos.
+                </div>
+            </div>
+        </div>
 
         <!--Mira Mi CV - View My Resume-->
 
-        <a href="#" class="btn btn-warning btn-md"  target="_blank">Mi CV</a>
+        <div class="row justify-content-center">
+            <a href="/viewCV.html" class="btn btn-primary m-auto " target="_blank">Mi CV</a>
+        </div>
+
+        <hr style="width: 80%;">
 
         <!--Proyectos - Proyects-->
 
-        <div class="m-3" id="card-container" style="background-color: red;">         
+        <div class="sep" id="sep-title">
+            Proyectos
+        </div>
+
+        <div class="rounded-lg m-3" id="card-container" style="background-color: rgb(231, 47, 47);">         
             
             <div class="card p-1 m-2" id="card">
 
-                <img src="/img/img-01.jpg" alt="imagen de la targeta" class="card-img-top img-fluid pb-10">
+                <img src="/img/img-01.jpg" alt="imagen de la targeta" class="card-img-top img-fluid p-1">
                 <h5 class="card-title pt-20">My Link Tree</h5>
                 <p class="card-text text-justify p-2">
                     Lorem ipsum dolor, sit amet consectetur adipisicing 
@@ -82,7 +84,7 @@
 
             <div class="card p-1 m-2">
 
-                <img src="/img/img-00.jpg" alt="imagen de la targeta" class="card-img-top img-fluid">
+                <img src="/img/img-00.jpg" alt="imagen de la targeta" class="card-img-top img-fluid p-1">
                 <h5 class="card-title">CRUD Vue</h5>
                 <p class="card-text text-justify p-2">
                     Lorem ipsum dolor, sit amet consectetur adipisicing 
@@ -96,7 +98,7 @@
 
             <div class="card p-1 m-2">
 
-                <img src="/img/img-03.png" alt="imagen de la targeta" class="card-img-top img-fluid">
+                <img src="/img/img-03.png" alt="imagen de la targeta" class="card-img-top img-fluid p-1">
                 <h5 class="card-title">Snake V1.0</h5>
                 <p class="card-text text-justify p-2">
                     Lorem ipsum dolor, sit amet consectetur adipisicing 
@@ -110,7 +112,7 @@
 
             <div class="card p-1 m-2">
 
-                <img src="/img/img-04.jpg" alt="imagen de la targeta" class="card-img-top img-fluid">
+                <img src="/img/img-04.jpg" alt="imagen de la targeta" class="card-img-top img-fluid p-1">
                 <h5 class="card-title">Página Tributo</h5>
                 <p class="card-text text-justify p-2">
                     Lorem ipsum dolor, sit amet consectetur adipisicing 
@@ -124,7 +126,7 @@
 
             <div class="card p-1 m-2">
 
-                <img src="/img/img-05.jpg" alt="imagen de la targeta" class="card-img-top img-fluid">
+                <img src="/img/img-05.jpg" alt="imagen de la targeta" class="card-img-top img-fluid p-1">
                 <h5 class="card-title">Reloj JS</h5>
                 <p class="card-text text-justify p-2">
                     Lorem ipsum dolor, sit amet consectetur adipisicing 
@@ -138,7 +140,7 @@
 
             <div class="card p-1 m-2">
 
-                <img src="/img/img-06.jpg" alt="imagen de la targeta" class="card-img-top img-fluid">
+                <img src="/img/img-06.jpg" alt="imagen de la targeta" class="card-img-top img-fluid p-1">
                 <h5 class="card-title">Login HTML + CSS</h5>
                 <p class="card-text text-justify p-2">
                     Lorem ipsum dolor, sit amet consectetur adipisicing 
@@ -152,7 +154,7 @@
 
             <!--<div class="card p-1 m-2">
 
-                <img src="/img/img-00.jpg" alt="imagen de la targeta" class="card-img-top img-fluid">
+                <img src="/img/img-00.jpg" alt="imagen de la targeta" class="card-img-top img-fluid p-2">
                 <h5 class="card-title">App Venta de Maquillaje</h5>
                 <p class="card-text text-justify p-2">
                     Lorem ipsum dolor, sit amet consectetur adipisicing 
@@ -166,7 +168,7 @@
 
             <div class="card p-1 m-2">
 
-                <img src="/img/img-00.jpg" alt="imagen de la targeta" class="card-img-top img-fluid">
+                <img src="/img/img-00.jpg" alt="imagen de la targeta" class="card-img-top img-fluid p-2">
                 <h5 class="card-title">Buddy System Algorithm</h5>
                 <p class="card-text text-justify p-2">
                     Lorem ipsum dolor, sit amet consectetur adipisicing 
@@ -180,7 +182,7 @@
 
             <div class="card p-1 m-2">
 
-                <img src="/img/img-00.jpg" alt="imagen de la targeta" class="card-img-top img-fluid">
+                <img src="/img/img-00.jpg" alt="imagen de la targeta" class="card-img-top img-fluid p-2">
                 <h5 class="card-title">Sistema de Gestion Logistica</h5>
                 <p class="card-text text-justify p-2">
                     Lorem ipsum dolor, sit amet consectetur adipisicing 
@@ -194,12 +196,15 @@
             
         </div>
 
+        <hr style="width: 80%;">
 
         <!--Tecnologias - Technologies-->
 
         <div id="technologies-container">
 
-            <h1 class="bg-dark text-center" id="tech">Tecnologias</h1>
+            <div class="sep" id="sep-title">
+                Tecnologias
+            </div>
 
         <div class="m-3" id="tech-grid">
               
@@ -291,6 +296,8 @@
 
         </div>
 
+        <hr style="width: 80%;">
+
         <!--Contactame - Contact Me-->
 
         <div class="container p-5">
@@ -327,6 +334,8 @@
         </div>
 
     </main>
+
+    <hr style="width: 80%;">
 
     <!--Footer-->
 

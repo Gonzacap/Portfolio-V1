@@ -11,6 +11,9 @@ body{
     background-color: #AED6F1;
 }
 
+#nav{
+  font-family: 'Nunito'
+}
 
 main #card-container{
 
@@ -46,10 +49,6 @@ main #technologies-container #tech-grid{
   background-color: #dfdfdf;
 }
 
-#tech{
-
-}
-
 #ico-aux{
 
   color: #335374;
@@ -70,4 +69,41 @@ main #technologies-container #tech-grid{
   main #card-container{  grid-template-columns: 1fr 1fr;  }
   main #technologies-container #tech-grid{  grid-template-columns: repeat(3, 1fr);;  }
 
+}
+
+.sep{
+  display: flex;
+  justify-content: center;
+  font-weight: 400;
+  text-align: center;
+  vertical-align: middle;
+  border: 1px;
+  padding: 10px 16px;
+  font-size: 30px;
+  line-height: 1.5;
+  border-radius: .25rem;
+  margin: 30px auto;
+}
+
+#sep-title{
+  background-color: #343a40;
+  color: #f8f9fa;
+  width: 80%;
+}
+
+#btn-cv{
+  display: flex;
+  justify-content: center;
+  background-color: #ffc107;
+  width: 30%;
+  font-weight: 400;
+  text-align: center;
+  vertical-align: middle;
+  border: 1px;
+  padding: 6px;
+  font-size: 24px;
+  line-height: 1.5;
+  border-radius: .25rem;
+  margin: 10px auto;
+  
 }
