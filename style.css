@@ -19,7 +19,7 @@ main #card-container{
 
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  background-color: rgb(231, 47, 47);
+  background-color: rgba(231, 47, 47, 0.911);
   padding: 20px 10px ;
 }
 
@@ -28,7 +28,8 @@ main #card-container{
 main #technologies-container #tech-grid{
 
   display: grid;
-  grid-template-columns: repeat(6, 1fr);;
+  grid-template-columns: repeat(6, 1fr);
+  justify-content: center; 
   grid-gap: 5px;
   padding: 15px 10px ;
 }
@@ -100,7 +101,7 @@ main #technologies-container #tech-grid{
 @media (max-width: 768px)/*(max-width: 576px)*/ {
   
   main #card-container{    background-color: unset; grid-template-columns: 1fr;  }
-  main #technologies-container #tech-grid{  grid-template-columns: repeat(2, 1fr); justify-content: center; }
+  main #technologies-container #tech-grid{  grid-template-columns: repeat(2, 1fr); }
 
 }
 
@@ -114,5 +115,15 @@ main #technologies-container #tech-grid{
   
   main #card-container{  grid-template-columns: 1fr 1fr;  }
   main #technologies-container #tech-grid{  grid-template-columns: repeat(3, 1fr);  }
+
+}
+
+@media (max-width:360px) {
+  
+  .it-card{
+    padding: 6px 3px;
+    border: 0;
+    border-radius: 8px;
+  }
 
 }
