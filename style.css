@@ -19,7 +19,7 @@ main #card-container{
 
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  background-color: rgba(231, 47, 47, 0.911);
+  /*background-color: rgba(231, 47, 47, 0.911);*/
   padding: 20px 10px ;
 }
 

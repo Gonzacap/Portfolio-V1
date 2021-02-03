@@ -1,13 +1,67 @@
 [
-    {"title":"My Link Tree", "app":"https://gonzacap.github.io/My-Link-Tree/"},
-    {"title":"CRUD Vue", "app":"https://gonzacap.github.io/CRUD-LocalStorage-con-Vue/"},
-    {"title":"Snake v1.0", "app":"https://gonzacap.github.io/Snake-v1.0/"},
-    {"title":"Pagina Tributo", "app":"https://gonzacap.github.io/Pagina-Tributo/"},
-    {"title":"Reloj JS", "app":"https://gonzacap.github.io/Reloj-en-JavaScript/"},
-    {"title":"Login HTML + CSS", "app":"https://gonzacap.github.io/Login/"},
-    {"title":"App Venta de Maquillaje", "app":"#"},
-    {"title":"Buddy System Algorithm", "app":"#"},
-    {"title":"Sistema de Gestion Logistica", "app":"#"}
+    {
+        "img":"img/img-01.jpg",
+        "title":"My Link Tree",
+        "description":"Mi propio link tree hecho con HTML y CSS.", 
+        "app":"https://gonzacap.github.io/My-Link-Tree/",
+        "code":"https://github.com/Gonzacap/My-Link-Tree"
+    },
+    {
+        "img":"img/img-02.jpg",
+        "title":"CRUD Vue",
+        "description":"CRUD con Vue.js, Bootstrap y LocalStorage; realizado como practica de Vue.", 
+        "app":"https://gonzacap.github.io/CRUD-LocalStorage-con-Vue/",
+        "code":"https://github.com/Gonzacap/CRUD-LocalStorage-con-Vue"
+    },
+    {
+        "img":"img/img-03.png",
+        "title":"Snake v1.0",
+        "description":"Un dia estaba aburrido, era de madrugada y se me dio por hacer el juego de la vivorita para practicar JavaScript.", 
+        "app":"https://gonzacap.github.io/Snake-v1.0/",
+        "code":"https://github.com/Gonzacap/Snake-v1.0"
+    },
+    {
+        "img":"img/img-04.jpg",
+        "title":"Pagina Tributo",
+        "description":"Página tributo realizada como proyecto de Web Design de FreeCodeCamp. PD: Soy fan de Magnus Mefsto.", 
+        "app":"https://gonzacap.github.io/Pagina-Tributo/",
+        "code":"https://github.com/Gonzacap/Pagina-Tributo"
+    },
+    {
+        "img":"img/img-05.jpg",
+        "title":"Reloj JS",
+        "description":"Reloj responsive hecho como Practica de JavaScript.", 
+        "app":"https://gonzacap.github.io/Reloj-en-JavaScript/",
+        "code":"https://github.com/Gonzacap/Reloj-en-JavaScript"
+    },
+    {
+        "img":"img/img-06.jpg",
+        "title":"Login HTML + CSS",
+        "description":"Login hecho como practica de maquetado en HTML y CSS.", 
+        "app":"https://gonzacap.github.io/Login/",
+        "code":"https://github.com/Gonzacap/Login"
+    },
+    {
+        "img":"img/img-07.png",
+        "title":"App Venta de Maquillaje",
+        "description":"Ejemplo de una app de venta de maquillajes realizada con Mat|r Script. Esta fue mi primera experiencia en el desarrollo movil.", 
+        "app":"#",
+        "code":"https://github.com/Gonzacap/ejemplo-app-venta-de-maquillaje"
+    },
+    {
+        "img":"img/img-08.png",
+        "title":"Buddy System Algorithm",
+        "description":"Simulacion del funcionamiento del algorimo Buddy (Algoritmo de Sistema Compañero) para asignación de memoria realizada en C.", 
+        "app":"#",
+        "code":"https://github.com/Gonzacap/Buddy-System-Algoritm---Algoritmo-de-Sistema-Compa-ero"
+    },
+    {
+        "img":"img/img-09.jpg",
+        "title":"Sistema de Gestion Logistica",
+        "description":"ABM de camiones, plantas, rutas e insumos; realizado en Java, Java Swing y MySQL para la materia de DIED (Diseñoe e Implementacion de Esctructuras de Datos).", 
+        "app":"#",
+        "code":"https://github.com/Gonzacap/gestionLogistica"
+    }
 ]
             
             
