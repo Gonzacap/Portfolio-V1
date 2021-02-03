@@ -19,7 +19,7 @@ main #card-container{
 
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-
+  background-color: rgb(231, 47, 47);
   padding: 20px 10px ;
 }
 
@@ -36,6 +36,7 @@ main #technologies-container #tech-grid{
 .it-card{
 
   background-color: #f8f9fa;
+  
   font-size: 1rem;
   font-weight: 400;
   text-align: center;
@@ -55,20 +56,6 @@ main #technologies-container #tech-grid{
   width: 96px;
   height: 128px;
   padding: 16px 0;
-}
-
-@media (max-width: 576px) {
-  
-  main #card-container{    grid-template-columns: 1fr;  }
-  main #technologies-container #tech-grid{  grid-template-columns: repeat(2, 1fr);;  }
-
-}
-
-@media (min-width: 768px) and (max-width:992px) {
-  
-  main #card-container{  grid-template-columns: 1fr 1fr;  }
-  main #technologies-container #tech-grid{  grid-template-columns: repeat(3, 1fr);;  }
-
 }
 
 .sep{
@@ -106,4 +93,26 @@ main #technologies-container #tech-grid{
   border-radius: .25rem;
   margin: 10px auto;
   
+}
+
+/*Media*/
+
+@media (max-width: 768px)/*(max-width: 576px)*/ {
+  
+  main #card-container{    background-color: unset; grid-template-columns: 1fr;  }
+  main #technologies-container #tech-grid{  grid-template-columns: repeat(2, 1fr); justify-content: center; }
+
+}
+
+/*@media (max-width: 576px){
+  
+  main #card-container{   }
+  
+}*/
+
+@media (min-width: 768px) and (max-width:992px) {
+  
+  main #card-container{  grid-template-columns: 1fr 1fr;  }
+  main #technologies-container #tech-grid{  grid-template-columns: repeat(3, 1fr);  }
+
 }
