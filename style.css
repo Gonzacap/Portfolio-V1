@@ -2,13 +2,26 @@
     font-family: 'Nunito', sans-serif;
     color: #212529;
   }
+
+  :root {
+    --celeste1: #AED6F1;
+    --celeste2: #56ccf2;
+    --rojo: rgba(231, 47, 47, 0.911);
+    --blanco-fondo: #f8f9fa;
+    --blanco-resaltado: #dfdfdf;
+    --amarillo: #ffc107;
+    --negro: #343a40;
+  }
   
   ::-webkit-scrollbar {
     display: none;
   }
 
 body{
-    background-color: #AED6F1;
+
+    background: var(--celeste1);  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, var(--celeste2), var(--celeste1), var(--celeste2));  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, var(--celeste2), var(--celeste1), var(--celeste2)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 #nav{
@@ -19,7 +32,6 @@ main #card-container{
 
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  /*background-color: rgba(231, 47, 47, 0.911);*/
   padding: 20px 10px ;
 }
 
@@ -36,24 +48,21 @@ main #technologies-container #tech-grid{
 
 .it-card{
 
-  background-color: #f8f9fa;
-  
+  background-color: var(--blanco-fondo);
   font-size: 1rem;
   font-weight: 400;
   text-align: center;
   vertical-align: middle;
   padding: 6px 12px;
-  border: 1px #f8f9fa;;
+  border: 1px var(--blanco-fondo);
   border-radius: 8px;
 }
 
 .it-card:hover{
-  background-color: #dfdfdf;
+  background-color: var(--blanco-resaltado);;
 }
 
 #ico-aux{
-
-  color: #335374;
   width: 96px;
   height: 128px;
   padding: 16px 0;
@@ -74,26 +83,9 @@ main #technologies-container #tech-grid{
 }
 
 #sep-title{
-  background-color: #343a40;
-  color: #f8f9fa;
+  background-color: var(--negro);
+  color: var(--blanco-fondo);
   width: 80%;
-}
-
-#btn-cv{
-  display: flex;
-  justify-content: center;
-  background-color: #ffc107;
-  width: 30%;
-  font-weight: 400;
-  text-align: center;
-  vertical-align: middle;
-  border: 1px;
-  padding: 6px;
-  font-size: 24px;
-  line-height: 1.5;
-  border-radius: .25rem;
-  margin: 10px auto;
-  
 }
 
 /*Media*/
