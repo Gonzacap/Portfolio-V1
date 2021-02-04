@@ -51,14 +51,14 @@
     {
         "img":"img/img-08.png",
         "title":"Buddy System Algorithm",
-        "description":"Simulacion del funcionamiento del algorimo Buddy (Algoritmo de Sistema Compañero) para asignación de memoria realizada en C.", 
+        "description":"Simulacion del funcionamiento del algorimo Buddy (Algoritmo de Sistema Compañero) para asignación de memoria. Realizado en C.", 
         "app":"#",
         "code":"https://github.com/Gonzacap/Buddy-System-Algoritm---Algoritmo-de-Sistema-Compa-ero"
     },
     {
         "img":"img/img-09.jpg",
         "title":"Sistema de Gestion Logistica",
-        "description":"ABM de camiones, plantas, rutas e insumos; realizado en Java, Java Swing y MySQL para la materia de DIED (Diseñoe e Implementacion de Esctructuras de Datos).", 
+        "description":"ABM de camiones, plantas, rutas e insumos; realizado en Java, Java Swing y MySQL para la materia de DIED (Diseño e Implementacion de Esctructuras de Datos).", 
         "app":"#",
         "code":"https://github.com/Gonzacap/gestionLogistica"
     }
