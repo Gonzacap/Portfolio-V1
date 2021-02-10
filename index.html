@@ -36,7 +36,7 @@
 
     <!--Main-->
 
-    <main id="" class="container">
+    <main id="app" class="container">
 
         <!--Sobre Mi - About Me-->
 
@@ -198,94 +198,19 @@
             <div class="sep" id="sep-title">
                 Tecnologias
             </div>
-
-            <div class="m-3" id="tech-grid">
-              
-                <div class="it-card" >
-
-                    <img class="img-fluid" id="ico-aux" src="https://img.icons8.com/ios/150/000000/c-plus-plus-logo.png"/>
-                    <p class="p-1">Lenguaje: C++</p>
                 
-                </div>
-
-                <div  class="it-card">
-                
-                    <i class="fab fa-java fa-8x"></i>
-                    <p class="p-1">Lenguaje: Java</p>
-                    </a>
-                </div>
-
-                <div class="it-card">
-                
-                    <img class="img-fluid" id="ico-aux" src="https://img.icons8.com/ios/150/000000/c-sharp-logo.png"/>
-                    <p class="p-1">Lenguaje: C#</p>
-                
-                </div>
-
-                <div class="it-card">
-                
-                    <img class="img-fluid" id="ico-aux" src="https://img.icons8.com/ios/100/000000/c.png"/>
-                    <p class="p-1">Lenguaje: C</p>
-                
-                </div>
-
-                <div class="it-card">
-                
-                    <i class="fab fa-html5 fa-8x"></i>
-                    <p class="p-1">Lenguaje: HTML</p>
-                
-                </div>
-
-                <div class="it-card" >
-                
-                    <i class="fab fa-css3-alt fa-8x"></i>
-                    <p class="p-1">Lenguaje: CSS</p>
-                
-                </div>
-
-                <div class="it-card">
-            
-                    <i class="fab fa-js-square fa-8x"></i>
-                    <p class="p-1">Lenguaje: JavaScript</p>
-                
-                </div>
-
-                <div class="it-card">
-                
-                    <i class="fab fa-vuejs fa-8x" ></i>
-                    <p class="p-1">Framework: Vue.js</p>
-                
-                </div>
-
-                <div class="it-card">
-                
-                    <i class="fab fa-node-js fa-8x"></i>
-                    <p class="p-1">Framework: Node.js</p>
-                    
-                </div>
-
-                <div class="it-card">
-                
-                    <i class="fab fa-wordpress fa-8x"></i>
-                    <p class="p-1">CMS: WordPress</p>
-                
-                </div>
-
-                <div class="it-card">
-                
-                    <i class="fab fa-git-alt fa-8x"></i>
-                    <p class="p-1">Control de Versiones: Git</p>
-                
-                </div>
-
-                <div class="it-card">
-                
-                    <img class="img-fluid" id="ico-aux" src="https://img.icons8.com/ios-filled/150/000000/visual-studio-logo.png"/>
-                    <p class="p-1">Editor: VS Code</p>
-                
-                </div>
-
-            </div>
+            <div  class="m-3" id="tech-grid">
+                <it-card-1
+                    v-for="(t, index) in technologies1"
+                    :title="t.title"
+                    :img="t.img"
+                ></it-card-1>
+                <it-card-2
+                    v-for="(t, index) in technologies2"
+                    :title="t.title"
+                    :ico="t.ico"
+                 ></it-card-2>
+            </div>      
 
         </div>
 
@@ -336,9 +261,10 @@
         <p class="h6">Gonza López / Gonzacap 2021 &copy;</p>
     </footer>
 
-    <!--Vue.js
+    <!--Vue.js-->
 
-    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.12/dist/vue.js"></script>-->
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.12/dist/vue.js"></script>
+    <script src="script.js"></script>
 
     <!--js Bootstrap-->
 
