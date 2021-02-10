@@ -42,7 +42,7 @@
         "code":"https://github.com/Gonzacap/Login"
     },
     {
-        "img":"img/img-07.png",
+        "img":"img/img-07.jpg",
         "title":"App Venta de Maquillaje",
         "description":"Ejemplo de una app de venta de maquillajes realizada con Mat|r Script. Esta fue mi primera experiencia en el desarrollo movil.", 
         "app":"#",
@@ -56,7 +56,7 @@
         "code":"https://github.com/Gonzacap/Buddy-System-Algoritm---Algoritmo-de-Sistema-Compa-ero"
     },
     {
-        "img":"img/img-09.jpg",
+        "img":"img/img-09.png",
         "title":"Sistema de Gestion Logistica",
         "description":"ABM de camiones, plantas, rutas e insumos; realizado en Java, Java Swing y MySQL para la materia de DIED (Diseño e Implementacion de Esctructuras de Datos).", 
         "app":"#",

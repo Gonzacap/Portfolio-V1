@@ -61,89 +61,23 @@
 
         <hr style="width: 80%;">
 
-        <!--Proyectos - Proyects-->
+        <!--Proyectos - Projects-->
 
         <div class="sep" id="sep-title">
             Proyectos
         </div>
 
-        <div class="rounded-lg m-3" id="card-container">         
-            
-            <div class="card p-1 m-2" id="card">
-
-                <img src="img/img-01.jpg" alt="imagen de la targeta" class="card-img-top img-fluid p-1">
-                <h5 class="card-title pt-20">My Link Tree</h5>
-                <p class="card-text text-justify p-2">
-                    Mi propio link tree hecho con HTML y CSS.
-                </p>
-                <a href="https://gonzacap.github.io/My-Link-Tree/" class="btn btn-primary btn-md m-1" target="_blank">App</a>
-                <a href="https://github.com/Gonzacap/My-Link-Tree" class="btn btn-secondary btn-md m-1"  target="_blank">Codigo</a>
-
-            </div>
-
-            <div class="card p-1 m-2">
-
-                <img src="img/img-02.jpg" alt="imagen de la targeta" class="card-img-top img-fluid p-1">
-                <h5 class="card-title">CRUD Vue</h5>
-                <p class="card-text text-justify p-2">
-                    CRUD con Vue.js, Bootstrap y LocalStorage; 
-                    realizado como practica de Vue.
-                </p>
-                <a href="https://gonzacap.github.io/CRUD-LocalStorage-con-Vue/" class="btn btn-primary btn-md m-1" target="_blank">App</a>
-                <a href="https://github.com/Gonzacap/CRUD-LocalStorage-con-Vue" class="btn btn-secondary btn-md m-1"  target="_blank">Codigo</a>
-
-            </div>
-
-            <div class="card p-1 m-2">
-
-                <img src="img/img-03.png" alt="imagen de la targeta" class="card-img-top img-fluid p-1">
-                <h5 class="card-title">Snake V1.0</h5>
-                <p class="card-text text-justify p-2">
-                    Un dia estaba aburrido, era de madrugada y se 
-                    me dio por hacer el juego de la vivorita para  
-                    practicar JavaScript.
-                </p>
-                <a href="https://gonzacap.github.io/Snake-v1.0/" class="btn btn-primary btn-md m-1" target="_blank">App</a>
-                <a href="https://github.com/Gonzacap/Snake-v1.0" class="btn btn-secondary btn-md m-1"  target="_blank">Codigo</a>
-                
-            </div>
-
-            <div class="card p-1 m-2">
-
-                <img src="img/img-04.jpg" alt="imagen de la targeta" class="card-img-top img-fluid p-1">
-                <h5 class="card-title">Página Tributo</h5>
-                <p class="card-text text-justify p-2">
-                    Página tributo realizada como proyecto de Web Design de FreeCodeCamp.
-                    PD: Soy fan de Magnus Mefsto.
-                </p>
-                <a href="https://gonzacap.github.io/Pagina-Tributo/" class="btn btn-primary btn-md m-1" target="_blank">App</a>
-                <a href="https://github.com/Gonzacap/Pagina-Tributo" class="btn btn-secondary btn-md m-1"  target="_blank">Codigo</a>
-                
-            </div>
-
-            <div class="card p-1 m-2">
-
-                <img src="img/img-05.jpg" alt="imagen de la targeta" class="card-img-top img-fluid p-1">
-                <h5 class="card-title">Reloj JS</h5>
-                <p class="card-text text-justify p-2">
-                    Reloj responsive hecho como Practica de JavaScript.
-                </p>
-                <a href="https://gonzacap.github.io/Reloj-en-JavaScript/" class="btn btn-primary btn-md m-1" target="_blank">App</a>
-                <a href="https://github.com/Gonzacap/Reloj-en-JavaScript" class="btn btn-secondary btn-md m-1"  target="_blank">Codigo</a>
-                
-            </div>
-
-            <div class="card p-1 m-2">
-
-                <img src="img/img-06.jpg" alt="imagen de la targeta" class="card-img-top img-fluid p-1">
-                <h5 class="card-title">Login HTML + CSS</h5>
-                <p class="card-text text-justify p-2">
-                    Login hecho como practica de maquetado en HTML y CSS.
-                </p>
-                <a href="https://gonzacap.github.io/Login/" class="btn btn-primary btn-md m-1" target="_blank">App</a>
-                <a href="https://github.com/Gonzacap/Login" class="btn btn-secondary btn-md m-1"  target="_blank">Codigo</a>
-                
-            </div>
+        <div class="rounded-lg m-3" id="card-container"> 
+        
+            <project-card
+                v-for="(p, index) in projects"
+                :img="p.img"
+                :title="p.title"
+                :description="p.description"
+                :app="p.app"
+                :code="p.code"
+                :btnStyle="p.btnStyle"
+            ></project-card>
 
             <div class="card p-1 m-2">
 
@@ -234,7 +168,7 @@
                                     <input type="text" class="form-control" placeholder="email">
                                 </div>
                                 <div class="form-group">
-                                    <textarea cols="30" rows="5" class="form-control" placeholder="Message"></textarea>
+                                    <textarea cols="30" rows="5" class="form-control" placeholder="Tu Mensaje"></textarea>
                                 </div>
                                 <div class="form-group">
                                     <button class="btn btn-primary btn-block">
