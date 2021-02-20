@@ -63,6 +63,14 @@ const app = new Vue({
         ],
         projects:[
             {
+                img:"img/img-10.jpg",
+                title:"Primera Página en Node",
+                description:"Mi primera página hecha en Node.js, Express, EJS, BootStrap y desplegada en Heroku. Tambien use Animate CSS para las animaciones", 
+                app:"https://primera-pagina-en-node-v2.herokuapp.com/",
+                code:"https://github.com/Gonzacap/primera-pagina-en-node-v2",
+                btnStyle:" "
+            },
+            {
                 img:"img/img-01.jpg",
                 title:"My Link Tree",
                 description:"Mi propio link tree hecho con HTML y CSS.", 
