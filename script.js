@@ -63,6 +63,14 @@ const app = new Vue({
         ],
         projects:[
             {
+                img:"img/img-11.jpg",
+                title:"Weather App",
+                description:"Una sencilla app del clima hecha con HTML, CSS, y JavaScript usando la API de openweathermap", 
+                app:"https://gonzacap.github.io/Weather-App/",
+                code:"https://github.com/Gonzacap/Weather-App",
+                btnStyle:" "
+            },
+            {
                 img:"img/img-10.jpg",
                 title:"Primera Página en Node",
                 description:"Mi primera página hecha en Node.js, Express, EJS, BootStrap y desplegada en Heroku. Tambien use Animate CSS para las animaciones", 
