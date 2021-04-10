@@ -1,5 +1,12 @@
 [
     {
+        "img":"img/img-12.jpg",
+        "title":"Alas EJ Web",
+        "description":"Como mienbro de Alas Empresa Junior participe en el desarrollo y mantenimiento de la pagina web. La misma esta realizada en WordpPress y utiliza un SSL de Cloudflare", 
+        "app":"https://alasempresajunior.com.ar",
+        "code":"#"
+    },
+    {
         "img":"img/img-01.jpg",
         "title":"My Link Tree",
         "description":"Mi propio link tree hecho con HTML y CSS.", 
@@ -61,6 +68,13 @@
         "description":"ABM de camiones, plantas, rutas e insumos; realizado en Java, Java Swing y MySQL para la materia de DIED (Diseño e Implementacion de Esctructuras de Datos).", 
         "app":"#",
         "code":"https://github.com/Gonzacap/gestionLogistica"
+    },
+    {
+        "img":"img/img-13.png",
+        "title":"Algos - enciclopedia de algoritmos",
+        "description":"Como becario del 'Taller de programacion' ayude en el desarrollo de 'Algos' una enciclopedia de algoritmos en C++. La idea era compartir algoritmos que los estudiantes aplican cotidianamente cuando resuelven problemas ó participan en competencias de programación y facilitando el camino de aprender a programar.", 
+        "app":"https://github.com/dambort/algos/wiki/%23Algos---Enciclopedia-de-Algoritmos-en-CPP",
+        "code":"https://github.com/dambort/algos"
     }
 ]
             

@@ -63,6 +63,13 @@ const app = new Vue({
         ],
         projects:[
             {
+                img:"img/img-12.jpg",
+                title:"Alas EJ Web",
+                description:"Como mienbro de Alas Empresa Junior participe en el desarrollo y mantenimiento de la página web. La misma esta realizada en WordpPress, Elementor y utiliza un SSL de Cloudflare", 
+                app:"https://alasempresajunior.com.ar",
+                code:"#"
+            },
+            {
                 img:"img/img-11.jpg",
                 title:"Weather App",
                 description:"Una sencilla app del clima hecha con HTML, CSS, y JavaScript usando la API de openweathermap", 
@@ -125,6 +132,13 @@ const app = new Vue({
                 "app":"https://gonzacap.github.io/Login/",
                 "code":"https://github.com/Gonzacap/Login",
                 "btnStyle":"background-color: red;"
+            },
+            {
+            "img":"img/img-13.png",
+            "title":"Algos - enciclopedia de algoritmos",
+            "description":"Como becario del 'Taller de programacion' ayude en el desarrollo de 'Algos' una enciclopedia de algoritmos en C++. La idea era compartir algoritmos que se aplican cotidianamente cuando resuelven problemas ó participan en competencias, facilitando el camino de aprender a programar.", 
+            "app":"https://github.com/dambort/algos/wiki/%23Algos---Enciclopedia-de-Algoritmos-en-CPP",
+            "code":"https://github.com/dambort/algos"
             }/*,
             {
                 "img":"img/img-07.jpg",
@@ -152,5 +166,5 @@ const app = new Vue({
             }*/
         ],
     },
-    /*html*/
+    /*html*//*const movies = require('../sample.json')*/
 });
