@@ -103,10 +103,10 @@ const app = new Vue({
             },
             {
                 "img":"img/img-03.png",
-                "title":"Snake v1.0",
+                "title":"Snake-JS v1.5",
                 "description":"Un dia estaba aburrido, era de madrugada y se me dio por hacer el juego de la vivorita para practicar JavaScript.", 
-                "app":"https://gonzacap.github.io/Snake-v1.0/",
-                "code":"https://github.com/Gonzacap/Snake-v1.0",
+                "app":"https://gonzacap.github.io/Snake-JS/",
+                "code":"https://github.com/Gonzacap/Snake-JS",
                 "btnStyle":"background-color: red;"
             },
             {
