@@ -70,6 +70,13 @@ const app = new Vue({
                 code:"#"
             },
             {
+                img:"img/img-14.jpg",
+                title:"Portafolios de Ana Banega",
+                description:"Portafolios para mi amiga Ana Banega, realizado con Vuejs, Bootstrap y desplegado en GitHub Pages", 
+                app:"https://analaurabanega.github.io/blog-personal/",
+                code:"https://github.com/Gonzacap/anita-portfolio"
+            },
+            {
                 img:"img/img-11.jpg",
                 title:"Weather App",
                 description:"Una sencilla app del clima hecha con HTML, CSS, y JavaScript usando la API de openweathermap", 
