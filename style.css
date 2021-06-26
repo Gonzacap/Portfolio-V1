@@ -28,6 +28,11 @@ body{
   font-family: 'Nunito'
 }
 
+#description{
+  width: 50%; 
+  margin: auto;
+}
+
 main #card-container{
 
   display: grid;
@@ -90,27 +95,35 @@ main #technologies-container #tech-grid{
 
 /*Media*/
 
-@media (max-width: 768px)/*(max-width: 576px)*/ {
+@media /*(min-width: 577px) and */(max-width: 768px) {
   
   main #card-container{    background-color: unset; grid-template-columns: 1fr;  }
   main #technologies-container #tech-grid{  grid-template-columns: repeat(2, 1fr); }
 
+  #description{
+    width: 100%;
+  }
+
 }
 
-/*@media (max-width: 576px){
+/*@media (min-width: 577px){
   
   main #card-container{   }
   
 }*/
 
-@media (min-width: 768px) and (max-width:992px) {
+@media (min-width: 769px) and (max-width:992px) {
   
   main #card-container{  grid-template-columns: 1fr 1fr;  }
   main #technologies-container #tech-grid{  grid-template-columns: repeat(3, 1fr);  }
 
 }
 
-@media (max-width:360px) {
+@media (max-width:360px)/* and (max-width: 576px)*/{
+
+  #description{
+    width: 100%;
+  }
   
   .it-card{
     padding: 6px 3px;
