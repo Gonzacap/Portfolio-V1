@@ -24,8 +24,10 @@ body{
     background: linear-gradient(to left, var(--celeste2), var(--celeste1), var(--celeste2)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-#nav{
-  font-family: 'Nunito'
+#my-photo{
+  width: 100%; 
+  border-radius: 100%; 
+  margin: auto;
 }
 
 #description{
@@ -106,11 +108,14 @@ main #technologies-container #tech-grid{
 
 }
 
-/*@media (min-width: 577px){
+@media (min-width:361px) and (max-width: 576px){
   
-  main #card-container{   }
+    #my-photo{
+    width: 50%;
+    margin: auto;
+  }
   
-}*/
+}
 
 @media (min-width: 769px) and (max-width:992px) {
   
@@ -119,7 +124,12 @@ main #technologies-container #tech-grid{
 
 }
 
-@media (max-width:360px)/* and (max-width: 576px)*/{
+@media (max-width:360px){
+
+  #my-photo{
+    width: 50%;
+    margin: auto;
+  }
 
   #description{
     width: 100%;
